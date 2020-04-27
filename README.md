@@ -9,3 +9,9 @@ For further details on the settings see: https://hub.docker.com/r/acspri/limesur
 # Pre-Requirements
 This example requires that you allready have a database running.
 In my example i have an local mariadb running on port 3306. 
+ - Create a new database called "limesurvey" in your existing db
+ - create a new user names "limesurvey" with password "limesurvey" ( this you can change in production ) with all access to the limesurvey database.
+ - All tables will be automatically created on docker startup.
+
+# Run
+`docker-compose up -d`
