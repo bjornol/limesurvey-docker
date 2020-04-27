@@ -1,5 +1,5 @@
 # limesurvey
-docker-compose limesurvey container connecting to existing database.
+docker-compose limesurvey container connecting to existing database. https://www.limesurvey.org/
 This is a easy example of connecting to a local database with the use of dockers host.docker.internal passing the host ip.
 
 # Docker image
