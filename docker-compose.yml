@@ -8,7 +8,7 @@ services:
     ports:
       - 127.0.0.1:1789:80
     environment: 
-      LIMESURVEY_DB_HOST: host.docker.internal:3306 
+      LIMESURVEY_DB_HOST: host.docker.internal:3306
       LIMESURVEY_DB_NAME: limesurvey
       LIMESURVEY_DB_USER: limesurvey
       LIMESURVEY_DB_PASSWORD: limesurvey
