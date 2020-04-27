@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  limesurvey:
+    image: acspri/limesurvey
+    ports:
+      - 1789:80
+    environment: 
+      LIMESURVEY_DB_HOST: host.docker.internal
+      LIMESURVEY_DB_NAME: limesurvey
+      LIMESURVEY_DB_USER: limesurvey
+      LIMESURVEY_DB_PASSWORD: limesurvey
+      LIMESURVEY_ADMIN_USER: admin
+      LIMESURVEY_ADMIN_PASSWORD: password
+      LIMESURVEY_ADMIN_NAME: Lime Administrator
+      LIMESURVEY_ADMIN_EMAIL: lime@lime.lime
